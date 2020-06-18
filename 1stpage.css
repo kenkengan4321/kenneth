@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	font-size: 20px;
+	font-family: 'MuseoModerno', cursive;
+}
+
+h1 {
+	color: black;
+	font-size: 40px;
+	margin-bottom: 20px
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.paragraph {
+	text-align: justify;
+	margin-bottom: 30px
+
+}
+
+.my_name {
+	font-size: 25px
+}
+
+.container {
+	width: 1140px;
+	margin: 20px auto 0 auto
+}
+
+.blog_post {
+	background-color: skyblue;
+	width: 75%;
+	float: left;
+	padding-right: 30px
+
+}
+
+.other_post {
+	background-color: lightgreen;
+	width: 25%;
+	float: left;
+}
+
+.author_box {
+	background-color: tomato;
+	border-top: 3px grey;
+	padding-top: 20px
+
+}
